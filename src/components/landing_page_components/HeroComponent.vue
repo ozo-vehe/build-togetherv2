@@ -12,7 +12,7 @@ import hero_image from '@/assets/images/hero_image.png'
         started</button>
     </header>
 
-    <div class="hero_image w-550 h-450">
+    <div class="hero_image w-500 h-450">
       <img class="object-cover" :src="hero_image" alt="Hero image">
     </div>
   </section>
