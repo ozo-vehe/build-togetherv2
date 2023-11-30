@@ -5,6 +5,7 @@ import ContactUsComponent from '../components/landing_page_components/ContactUsC
 import GrowthComponent from '../components/landing_page_components/GrowthComponent.vue';
 import HeroComponent from '../components/landing_page_components/HeroComponent.vue';
 import ProductsComponent from '../components/landing_page_components/ProductsComponent.vue';
+import QuestionsComponent from '../components/landing_page_components/QuestionsComponent.vue';
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import ProductsComponent from '../components/landing_page_components/ProductsCom
     <ProductsComponent />
     <AboutComponent />
     <ContactUsComponent />
+    <QuestionsComponent />
   </main>
 </template>
