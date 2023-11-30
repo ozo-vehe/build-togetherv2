@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../assets/fonts/Satoshi-Regular.otf'), url('../assets/fonts/Satoshi-Bold.otf'), url('../assets//fonts/Satoshi-Light.otf');
+}
+
+body {
+  font-family: 'Satoshi';;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
