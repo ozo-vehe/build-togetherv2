@@ -11,7 +11,9 @@
       <p class="text-custom_card_header text-2xl text-center">
         As career champions, we help you shine brighter and achieve more
       </p>
-      <button class="bg-custom_orange w-40 px-5 py-3 rounded-xl text-white">
+      <button
+        class="bg-custom_orange w-40 px-5 py-3 rounded-xl text-white hover:bg-custom_dark_orange transition-all duration-300"
+      >
         Get Started
       </button>
     </div>
