@@ -26,6 +26,7 @@ const showHidden = reactive({
           <h3 class="text-2xl font-normal leading-normal">What is Build Together?</h3>
           <svg
             @click="showHidden.question_one = !showHidden.question_one"
+            :class="{ rotate: showHidden.question_one }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -57,6 +58,7 @@ const showHidden = reactive({
           <h3 class="text-2xl font-normal leading-normal">Who is Build Together for?</h3>
           <svg
             @click="showHidden.question_two = !showHidden.question_two"
+            :class="{ rotate: showHidden.question_two }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -89,6 +91,7 @@ const showHidden = reactive({
           </h3>
           <svg
             @click="showHidden.question_thr = !showHidden.question_thr"
+            :class="{ rotate: showHidden.question_thr }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -121,6 +124,7 @@ const showHidden = reactive({
           </h3>
           <svg
             @click="showHidden.question_fou = !showHidden.question_fou"
+            :class="{ rotate: showHidden.question_fou }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -153,6 +157,7 @@ const showHidden = reactive({
           </h3>
           <svg
             @click="showHidden.question_fiv = !showHidden.question_fiv"
+            :class="{ rotate: showHidden.question_fiv }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -186,6 +191,7 @@ const showHidden = reactive({
           </h3>
           <svg
             @click="showHidden.question_six = !showHidden.question_six"
+            :class="{ rotate: showHidden.question_six }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -219,6 +225,7 @@ const showHidden = reactive({
           </h3>
           <svg
             @click="showHidden.question_sev = !showHidden.question_sev"
+            :class="{ rotate: showHidden.question_sev }"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -265,7 +272,7 @@ const showHidden = reactive({
   padding: 0px;
   max-height: 0px;
   overflow: hidden;
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
 }
 
 .dropdown {
@@ -274,5 +281,9 @@ const showHidden = reactive({
 
 svg {
   cursor: pointer;
+  transition: all 0.5s linear;
+}
+.rotate {
+  transform: rotate(-180deg);
 }
 </style>
