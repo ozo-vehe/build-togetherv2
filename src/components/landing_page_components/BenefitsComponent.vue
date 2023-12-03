@@ -72,6 +72,9 @@
 
 <style scoped>
 @media screen and (max-width: 768px) {
+  .benefits {
+    padding: 32px 0px;
+  }
   header {
     text-align: center;
     gap: 8px;

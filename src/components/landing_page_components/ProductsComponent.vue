@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <section
-    class="products flex flex-wrap flex-col gap-8 py-20 justify-center items-center"
+    class="products flex flex-wrap flex-col gap-8 py-8 justify-center items-center"
   >
     <header class="flex flex-col items-center gap-4 mb-12">
       <h2 class="text-custom_orange text-2xl">Our products</h2>

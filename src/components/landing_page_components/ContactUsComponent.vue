@@ -18,7 +18,9 @@ const handleSubmit = async (e) => {
 };
 </script>
 <template>
-  <section class="flex flex-wrap flex-col gap-4 py-20 justify-center items-center">
+  <section
+    class="contact_us flex flex-wrap flex-col gap-4 py-20 justify-center items-center"
+  >
     <header class="flex flex-col items-center gap-4">
       <h2 class="text-custom_orange text-2xl">We're here to help</h2>
       <p class="font-bold text-4xl">Contact Us</p>
@@ -195,5 +197,55 @@ const handleSubmit = async (e) => {
 }
 .form_input textarea {
   height: 127px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact_us {
+    padding: 32px 0px;
+    gap: 0px;
+  }
+  header {
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 0px;
+  }
+  header h2 {
+    font-size: 14px;
+    line-height: normal;
+  }
+  header p {
+    line-height: normal;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .contact_us > div {
+    margin: 30px 0px;
+  }
+  .form_image {
+    gap: 20px;
+    align-items: center;
+    order: 2;
+    margin-top: 30px;
+  }
+  .form_image img {
+    width: 80%;
+  }
+  .social_icon_link {
+    gap: 16px;
+  }
+  .social_icon_link svg {
+    width: 24px;
+    height: 24px;
+  }
+  .form_input label {
+    font-size: 16px;
+  }
+  form input::placeholder {
+    font-size: 14px;
+  }
+  form button {
+    font-size: 12px;
+    width: 134px;
+  }
 }
 </style>

@@ -286,4 +286,33 @@ svg {
 .rotate {
   transform: rotate(-180deg);
 }
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 32px 0px;
+  }
+  header {
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 0px;
+  }
+  header h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .question_container {
+    margin: 32px 0px;
+  }
+  .question_header h3 {
+    font-size: 16px;
+    width: 80%;
+  }
+  .question_header svg {
+    width: 24px;
+    height: 24px;
+  }
+  .question p {
+    font-size: 14px;
+  }
+}
 </style>

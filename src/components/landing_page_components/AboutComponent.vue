@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <section
-    class="fle max-w-full flex-wrap flex-col gap-4 py-20 justify-center items-center"
+    class="about flex max-w-full flex-wrap flex-col gap-4 py-20 justify-center items-center"
   >
     <header class="flex flex-col items-center text-center gap-4">
       <h2 class="text-custom_orange text-2xl">Build Together</h2>
@@ -20,4 +20,33 @@
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 32px 0px;
+  }
+  header {
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 0px;
+  }
+  header h2 {
+    font-size: 14px;
+    line-height: normal;
+  }
+  header p {
+    line-height: normal;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .about > div p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .about > div button {
+    font-size: 12px;
+    width: 134px;
+    text-align: center;
+  }
+}
+</style>
