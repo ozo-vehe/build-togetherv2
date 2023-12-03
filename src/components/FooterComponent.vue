@@ -224,7 +224,7 @@ import { RouterLink } from "vue-router";
         <div class="quick_links mb-2">
           <h2 class="text-[16px] font-bold mb-[10px]">Quick Links</h2>
           <ul
-            class="footer_links flex flex-col text-custom_card_header text-xl text-[14px] gap-2 items-start"
+            class="footer_links flex flex-col text-custom_card_header text-[14px] gap-2 items-start"
           >
             <li>
               <RouterLink to="/projects">Projects</RouterLink>
