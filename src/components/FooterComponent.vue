@@ -139,4 +139,11 @@ import { RouterLink } from "vue-router";
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+@media screen and (max-width: 768px) {
+  footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+</style>

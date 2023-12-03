@@ -1,11 +1,11 @@
 <script setup>
-import AboutComponent from '../components/landing_page_components/AboutComponent.vue';
-import BenefitsComponent from '../components/landing_page_components/BenefitsComponent.vue';
-import ContactUsComponent from '../components/landing_page_components/ContactUsComponent.vue';
-import GrowthComponent from '../components/landing_page_components/GrowthComponent.vue';
-import HeroComponent from '../components/landing_page_components/HeroComponent.vue';
-import ProductsComponent from '../components/landing_page_components/ProductsComponent.vue';
-import QuestionsComponent from '../components/landing_page_components/QuestionsComponent.vue';
+import AboutComponent from "../components/landing_page_components/AboutComponent.vue";
+import BenefitsComponent from "../components/landing_page_components/BenefitsComponent.vue";
+import ContactUsComponent from "../components/landing_page_components/ContactUsComponent.vue";
+import GrowthComponent from "../components/landing_page_components/GrowthComponent.vue";
+import HeroComponent from "../components/landing_page_components/HeroComponent.vue";
+import ProductsComponent from "../components/landing_page_components/ProductsComponent.vue";
+import QuestionsComponent from "../components/landing_page_components/QuestionsComponent.vue";
 </script>
 
 <template>
@@ -19,3 +19,12 @@ import QuestionsComponent from '../components/landing_page_components/QuestionsC
     <QuestionsComponent />
   </main>
 </template>
+
+<style scoped>
+@media screen and (max-width: 768px) {
+  main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+</style>
