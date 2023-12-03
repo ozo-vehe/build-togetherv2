@@ -35,7 +35,7 @@ let menu_open = ref(false);
 
       <!-- Navigation Hamburger Menu -->
       <div
-        class="nav_hamburger_menu fixed z-20 top-0 left-0 w-[100%] h-screen flex justify-end bg-custom_card_header/20"
+        class="nav_hamburger_menu fixed z-20 top-0 left-0 w-full h-screen flex justify-end bg-custom_card_header/20"
         v-if="menu_open"
       >
         <div
