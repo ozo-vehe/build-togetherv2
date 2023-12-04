@@ -25,4 +25,11 @@ import hero_image from "@/assets/images/about_hero.png";
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+@media screen and (max-width: 768px) {
+  main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+</style>
