@@ -1,15 +1,28 @@
+<script setup>
+import HeroComponent from "@/components/HeroComponent.vue";
+import hero_image from "@/assets/images/about_hero.png";
+</script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="px-16">
+    <HeroComponent>
+      <template #header_h1>
+        <h1>Empowering Tech Talents Worldwide</h1>
+      </template>
+
+      <template #header_p>
+        <p>
+          Build Together is on a mission to tackle growth hurdles for aspiring tech
+          enthusiasts, fostering a collaborative environment. <br /><br />
+          Our Vision is to empower talents globally, propelling them to become drivers of
+          innovation, success, and positive change in the tech ecosystem
+        </p>
+      </template>
+
+      <template #hero_image>
+        <img class="object-cover" :src="hero_image" alt="Hero image" />
+      </template>
+    </HeroComponent>
+  </main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<style scoped></style>
