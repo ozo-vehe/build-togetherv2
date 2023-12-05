@@ -6,9 +6,9 @@
       <p class="font-bold text-4xl">Why Join Build Together?</p>
     </header>
 
-    <div class="benefit_items flex flex-wrap items-center justify-center gap-10">
+    <div class="benefit_items flex flex-wrap items-center justify-center gap-5">
       <div
-        class="flex flex-col p-5 w-400 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col p-5 w-350 h-300 items-center justify-start border border-custom_border rounded-xl"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           unmatched growth opportunities
@@ -20,7 +20,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-400 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col p-5 w-350 h-300 items-center justify-start border border-custom_border rounded-xl"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Dynamic Community
@@ -32,7 +32,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-400 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col p-5 w-350 h-300 items-center justify-start border border-custom_border rounded-xl"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Tailored Talent Development
@@ -44,7 +44,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-400 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col p-5 w-350 h-300 items-center justify-start border border-custom_border rounded-xl"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Pathway to Earning and Employment
@@ -56,7 +56,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-400 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col p-5 w-350 h-300 items-center justify-start border border-custom_border rounded-xl"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           A Team Committed to Your Advancement
