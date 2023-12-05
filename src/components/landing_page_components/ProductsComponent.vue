@@ -8,15 +8,17 @@
       <p class="font-bold text-4xl">See How Build Together Can Help You Succeed</p>
     </header>
 
-    <div class="product_items flex flex-wrap items-center justify-center gap-4">
-      <div class="flex items-center w-[400px] justify-center gap-10">
+    <div
+      class="product_items flex border w-full flex-wrap items-center justify-center gap-x-8 gap-y-4"
+    >
+      <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-full items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-300 items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
-          <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
+          <h3 class="text-custom_card_header text-xl font-bold mb-3 capitalize">
             Build Together for Beginners; Grow faster by doing.
           </h3>
-          <p class="text-xl text-custom_card_text">
+          <p class="text-[16px] text-custom_card_text">
             Designed for beginners with 0-1 years of experience, BT Basic is your pathway
             to rapid growth through hands on tasks and experience
           </p>
@@ -40,14 +42,14 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[400px] justify-center gap-10">
+      <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-400 items-start justify-center border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-300 items-start justify-center border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
         >
-          <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
+          <h3 class="text-custom_card_header text-xl font-bold mb-3 capitalize">
             Build Together for Portfolio: Craft Your Professional Story
           </h3>
-          <p class="text-xl text-custom_card_text">
+          <p class="text-[16px] text-custom_card_text">
             Craft your professional story with Build Together for portfolio- an exclusive
             space that is tailored for your portfolio enhancement
           </p>
@@ -71,14 +73,14 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[400px] justify-center gap-10">
+      <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-400 items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-300 items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
-          <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
+          <h3 class="text-custom_card_header text-xl font-bold mb-3 capitalize">
             Build Together for Business: Build a Business, Be Employed.
           </h3>
-          <p class="text-xl text-custom_card_text">
+          <p class="text-[16px] text-custom_card_text">
             Tailored for aspiring entrepreneurs and those seeking employment with
             visionary founders, Build Together for business propels you into the world of
             startups
