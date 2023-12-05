@@ -8,12 +8,10 @@
       <p class="font-bold text-4xl">See How Build Together Can Help You Succeed</p>
     </header>
 
-    <div
-      class="product_items flex flex-wrap items-center justify-center gap-x-10 gap-y-4"
-    >
-      <div class="flex items-center justify-center gap-10">
+    <div class="product_items flex flex-wrap items-center justify-center gap-4">
+      <div class="flex items-center w-[400px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-400 items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
           <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
             Build Together for Beginners; Grow faster by doing.
@@ -42,7 +40,7 @@
         </div>
       </div>
 
-      <div class="flex items-center justify-center gap-10">
+      <div class="flex items-center w-[400px] justify-center gap-10">
         <div
           class="flex flex-col px-5 py-8 w-400 items-start justify-center border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
         >
@@ -73,7 +71,7 @@
         </div>
       </div>
 
-      <div class="flex items-center justify-center gap-10">
+      <div class="flex items-center w-[400px] justify-center gap-10">
         <div
           class="flex flex-col px-5 py-8 w-400 items-start justify-center border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
