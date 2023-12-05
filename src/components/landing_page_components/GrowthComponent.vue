@@ -1,16 +1,14 @@
 <script setup></script>
 <template>
   <section class="growth flex flex-wrap flex-col gap-8 py-20 justify-center items-center">
-    <header class="flex flex-col items-center gap-4 mb-12">
+    <header class="flex flex-col items-center gap-4">
       <h2 class="text-custom_orange text-2xl">Our growth over the months</h2>
       <p class="font-bold text-4xl">Discover What's Amazing About Build Together</p>
     </header>
 
-    <div
-      class="growth_params flex flex-wrap items-center justify-center gap-x-10 gap-y-4"
-    >
+    <div class="growth_params flex flex-wrap items-center justify-center gap-x-5 gap-y-4">
       <div
-        class="flex flex-col p-5 w-56 h-40 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +30,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-56 h-40 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +73,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-56 h-40 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +95,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-56 h-40 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +117,7 @@
       </div>
 
       <div
-        class="flex flex-col p-5 w-56 h-40 items-center justify-center border border-custom_border rounded-xl"
+        class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
