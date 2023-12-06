@@ -1,6 +1,7 @@
 <script setup>
 import HeroComponent from "@/components/HeroComponent.vue";
 import hero_image from "@/assets/images/about_hero.png";
+import StoryComponent from "../components/about_page_components/StoryComponent.vue";
 </script>
 <template>
   <main class="px-16">
@@ -22,6 +23,7 @@ import hero_image from "@/assets/images/about_hero.png";
         <img class="object-cover" :src="hero_image" alt="Hero image" />
       </template>
     </HeroComponent>
+    <StoryComponent />
   </main>
 </template>
 
