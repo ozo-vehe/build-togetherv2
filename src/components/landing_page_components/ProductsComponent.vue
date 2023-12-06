@@ -13,7 +13,7 @@
     >
       <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-full h-350 items-start justify-start border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full max-h-[350px] items-start justify-start border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
           <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
             Build Together for Beginners; Grow faster by doing.
@@ -44,7 +44,7 @@
 
       <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-full h-350 items-start justify-start border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full max-h-[350px] items-start justify-start border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
         >
           <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
             Build Together for Portfolio: Craft Your Professional Story
@@ -75,15 +75,16 @@
 
       <div class="flex items-center w-[360px] justify-center gap-10">
         <div
-          class="flex flex-col px-5 py-8 w-full h-350 items-start justify-start border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full max-h-[350px] items-start justify-start border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
           <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
-            Build Together for Business: Build a Business, Be Employed.
+            Build Together for Business: Build a Business, Be Employed
           </h3>
           <p class="text-xl text-custom_card_text">
             Tailored for aspiring entrepreneurs and those seeking employment with
-            visionary founders, Build Together for business propels you into the world of
-            startups
+            visionary founders...
+            <!-- Build Together for business propels you into the world of
+            startups -->
           </p>
           <button
             class="mt-3 text-custom_card_button flex justify-center items-center gap-2"

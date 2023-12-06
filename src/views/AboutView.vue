@@ -2,6 +2,7 @@
 import HeroComponent from "@/components/HeroComponent.vue";
 import hero_image from "@/assets/images/about_hero.png";
 import StoryComponent from "../components/about_page_components/StoryComponent.vue";
+import CountriesComponent from "../components/about_page_components/CountriesComponent.vue";
 </script>
 <template>
   <main class="px-16">
@@ -24,6 +25,7 @@ import StoryComponent from "../components/about_page_components/StoryComponent.v
       </template>
     </HeroComponent>
     <StoryComponent />
+    <CountriesComponent />
   </main>
 </template>
 

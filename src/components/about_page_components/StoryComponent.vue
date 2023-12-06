@@ -8,7 +8,7 @@ import story_three from "@/assets/images/story (2).png";
   <section class="story">
     <header class="text-center capitalize">
       <h2 class="text-2xl text-custom_orange">our story</h2>
-      <p class="text-[40px] font-bold mt-4">
+      <p class="text-[40px] font-bold mt-2">
         about build together: unleashing tomorrow's innovators
       </p>
     </header>
@@ -16,7 +16,7 @@ import story_three from "@/assets/images/story (2).png";
     <div
       class="story_content_container w-full flex flex-wrap flex-col items-center gap-y-20 mt-12"
     >
-      <div class="story_content flex flex-wrap gap-40 justify-between items-center">
+      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
         <p class="p-[10px] max-w-[626px] text-2xl">
           Build Together is where growth, collaboration, and a shared vision converge. Our
           mission is both simple and profound- to serve as the catalyst propelling talents
@@ -28,7 +28,7 @@ import story_three from "@/assets/images/story (2).png";
         </div>
       </div>
 
-      <div class="story_content flex flex-wrap gap-40 justify-between items-center">
+      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
         <p class="p-[10px] max-w-[626px] text-2xl order-2">
           Building a Global Community of Creators! At Build Together, we’re not just a
           platform; we’re a commitment to exceptional builders and creators worldwide, we
@@ -41,7 +41,7 @@ import story_three from "@/assets/images/story (2).png";
         </div>
       </div>
 
-      <div class="story_content flex flex-wrap gap-40 justify-between items-center">
+      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
         <p class="p-[10px] max-w-[626px] text-2xl">
           Our vision extends beyond aspiration; it’s our daily motivation, propelling us
           tirelessly to construct a world where potential knows no boundaries. A
