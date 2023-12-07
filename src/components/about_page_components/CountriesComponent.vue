@@ -9,7 +9,7 @@ import turkey from "@/assets/images/turkey.png";
 </script>
 
 <template>
-  <section class="countries mt-28">
+  <section class="countries mt-28 mb-10">
     <header class="text-center capitalize">
       <h2 class="text-2xl text-custom_orange">global presence</h2>
       <p class="text-[40px] font-bold mt-2">we have talents from all over the world</p>
