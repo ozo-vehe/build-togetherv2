@@ -1,5 +1,5 @@
 <script setup>
-import AboutComponent from "../components/landing_page_components/AboutComponent.vue";
+import AboutComponent from "../components/AboutComponent.vue";
 import BenefitsComponent from "../components/landing_page_components/BenefitsComponent.vue";
 import ContactUsComponent from "../components/landing_page_components/ContactUsComponent.vue";
 import GrowthComponent from "../components/landing_page_components/GrowthComponent.vue";
@@ -33,7 +33,23 @@ import hero_image from "@/assets/images/hero_image.png";
     <GrowthComponent />
     <BenefitsComponent />
     <ProductsComponent />
-    <AboutComponent />
+    <AboutComponent>
+      <template #header_h1>
+        <h1>Build Together</h1>
+      </template>
+
+      <template #header_p>
+        <p>We’re obsessed with you at your best</p>
+      </template>
+
+      <template #body_p>
+        <p>As career champions, we help you shine brighter and achieve more</p>
+      </template>
+
+      <template #button>
+        <ButtonComponent text="get started" />
+      </template>
+    </AboutComponent>
     <ContactUsComponent />
     <QuestionsComponent />
   </main>

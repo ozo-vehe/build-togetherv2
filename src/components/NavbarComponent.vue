@@ -7,7 +7,7 @@ const route = useRoute();
 let menu_open = ref(false);
 </script>
 <template>
-  <nav class="flex flex-wrap gap-8 border py-6 px-16 items-center justify-between">
+  <nav class="flex flex-wrap gap-8 py-6 px-16 items-center justify-between">
     <!-- Navigation Logo -->
     <RouterLink to="/">
       <img class="w-10" :src="logo" alt="Logo image" />

@@ -3,6 +3,7 @@ import HeroComponent from "@/components/HeroComponent.vue";
 import hero_image from "@/assets/images/about_hero.png";
 import StoryComponent from "../components/about_page_components/StoryComponent.vue";
 import CountriesComponent from "../components/about_page_components/CountriesComponent.vue";
+import AboutComponent from "../components/AboutComponent.vue";
 </script>
 <template>
   <main class="px-16">
@@ -26,6 +27,22 @@ import CountriesComponent from "../components/about_page_components/CountriesCom
     </HeroComponent>
     <StoryComponent />
     <CountriesComponent />
+    <AboutComponent>
+      <template #header_h1>
+        <h1>Build Together</h1>
+      </template>
+
+      <template #header_p>
+        <p>The Team</p>
+      </template>
+
+      <template #body_p>
+        <p>
+          We are a team on a journey to create something lasting, embracing the
+          opportunity to learn something new every single day
+        </p>
+      </template>
+    </AboutComponent>
   </main>
 </template>
 
