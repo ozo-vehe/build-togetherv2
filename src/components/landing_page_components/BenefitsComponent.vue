@@ -91,6 +91,7 @@
 
   .benefit_items > div {
     width: 330px;
+    height: fit-content;
   }
   .benefit_items > div h3 {
     font-size: 16px;
