@@ -8,6 +8,14 @@ import ProductsComponent from "../components/landing_page_components/ProductsCom
 import QuestionsComponent from "../components/landing_page_components/QuestionsComponent.vue";
 import ButtonComponent from "../components/ButtonComponent.vue";
 import hero_image from "@/assets/images/hero_image.png";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+const changeRoute = () => {
+  // router.push
+  router.push({ path: "/products" });
+};
 </script>
 
 <template>
@@ -23,7 +31,8 @@ import hero_image from "@/assets/images/hero_image.png";
       </template>
 
       <template #button>
-        <ButtonComponent text="get started" />
+        <!-- <RouterLink to="/products">get started</RouterLink> -->
+        <ButtonComponent @click.prevent="changeRoute" text="get started" />
       </template>
 
       <template #hero_image>

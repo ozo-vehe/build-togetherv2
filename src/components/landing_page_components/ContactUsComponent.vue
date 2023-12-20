@@ -30,7 +30,7 @@ const handleSubmit = async (e) => {
       <div class="form_image w-500 flex flex-col gap-y-32">
         <img class="w-450" :src="contact_us" alt="Contact us image" />
         <div class="social_icon_link w-full flex gap-5 justify-center">
-          <RouterLink to="">
+          <a href="https://twitter.com/buildtogetherhq" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="33"
@@ -47,9 +47,9 @@ const handleSubmit = async (e) => {
                 fill="#F47722"
               />
             </svg>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="">
+          <a href="https://twitter.com/buildtogetherhq" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="33"
@@ -78,9 +78,9 @@ const handleSubmit = async (e) => {
                 </clipPath>
               </defs>
             </svg>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="">
+          <a href="https://www.linkedin.com/company/build-together-hq/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="33"
@@ -107,7 +107,7 @@ const handleSubmit = async (e) => {
                 </clipPath>
               </defs>
             </svg>
-          </RouterLink>
+          </a>
         </div>
       </div>
 

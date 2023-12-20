@@ -61,22 +61,29 @@ let menu_open = ref(false);
           </div>
 
           <ul class="flex flex-col gap-6 py-6 pr-6 w-full">
-            <li class="menu_item" :class="{ 'text-custom_orange': route.path === '/' }">
+            <li
+              @click="menu_open = !menu_open"
+              class="menu_item"
+              :class="{ 'text-custom_orange': route.path === '/' }"
+            >
               <RouterLink role="menuitem" to="/">Home</RouterLink>
             </li>
             <li
+              @click="menu_open = !menu_open"
               class="menu_item"
               :class="{ 'text-custom_orange': route.path === '/about' }"
             >
               <RouterLink role="menuitem" to="/about">About Us</RouterLink>
             </li>
             <li
+              @click="menu_open = !menu_open"
               class="menu_item"
               :class="{ 'text-custom_orange': route.path === '/products' }"
             >
               <RouterLink role="menuitem" to="/products">Products</RouterLink>
             </li>
             <li
+              @click="menu_open = !menu_open"
               class="menu_item"
               :class="{ 'text-custom_orange': route.path === '/projects' }"
             >
@@ -107,11 +114,12 @@ let menu_open = ref(false);
     </ul>
 
     <!-- Navigation Join Button -->
-    <button
-      class="text-custom_orange join_btn p-2 w-160 rounded-xl border-2 border-custom_orange hover:bg-custom_orange hover:text-slate-50 transition-all duration-300"
+    <RouterLink
+      to="/products"
+      class="text-custom_orange join_btn p-2 w-160 rounded-xl border-2 border-custom_orange hover:bg-custom_orange hover:text-slate-50 transition-all duration-300 capitalize text-center text-[16px]"
     >
-      Join Us
-    </button>
+      Join us
+    </RouterLink>
   </nav>
 </template>
 

@@ -32,8 +32,10 @@
               </ul>
             </div>
           </div>
-          <button class="mt-3 text-custom_orange flex justify-center items-center gap-2">
-            Start here
+          <button
+            class="mt-3 text-custom_orange flex justify-center items-center gap-2 font-bold"
+          >
+            <a href="https://forms.gle/XfzPigtdePrS1D6N9" target="_blank"> Start here </a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -77,7 +79,7 @@
           <button
             class="mt-3 text-custom_card_button flex justify-center items-center gap-2"
           >
-            Start here
+            <a href="https://forms.gle/DWg24Y2XVV4LL65P6" target="_blank"> Start here </a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -120,7 +122,7 @@
             </div>
           </div>
           <button class="mt-3 text-custom_orange flex justify-center items-center gap-2">
-            Start here
+            <a href="https://forms.gle/DWg24Y2XVV4LL65P6" target="_blank"> Start here </a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
