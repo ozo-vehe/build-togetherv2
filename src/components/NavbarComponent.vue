@@ -155,7 +155,7 @@ let menu_open = ref(false);
     cursor: pointer;
   }
 
-  nav > button,
+  .join_btn,
   nav > ul {
     display: none;
   }
