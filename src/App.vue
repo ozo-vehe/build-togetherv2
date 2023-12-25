@@ -9,19 +9,8 @@ AOS.init();
 
 <template>
   <NavbarComponent />
-  <Transition name="slide-fade" appear>
-    <RouterView />
-  </Transition>
+  <RouterView />
   <FooterComponent />
 </template>
 
-<style scoped>
-.slide-fade-enter-from {
-  opacity: 0;
-  transform: translateX(100px);
-}
-
-.slide-fade-enter-active {
-  transition: all 1s ease;
-}
-</style>
+<style scoped></style>

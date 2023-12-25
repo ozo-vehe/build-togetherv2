@@ -32,7 +32,11 @@ const router = createRouter({
       path: '/:pathMatch(.*)',
       component: PageNotFoundComponent
     },
-  ]
+  ],
+  scrollBehavior () {
+    // always scroll to top
+    return {top: 0, behavior: 'smooth'}
+  }
 })
 
 export default router

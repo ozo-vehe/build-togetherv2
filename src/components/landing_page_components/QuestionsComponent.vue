@@ -63,7 +63,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="200"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">Who is Build Together for?</h3>
@@ -100,7 +99,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="400"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
@@ -139,7 +137,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="600"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
@@ -178,7 +175,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="800"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
@@ -218,7 +214,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="1000"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
@@ -258,7 +253,6 @@ const showHidden = reactive({
         data-aos="slide-up"
         data-aos-duration="500"
         data-aos-easing="ease-in-out"
-        data-aos-delay="1200"
       >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">

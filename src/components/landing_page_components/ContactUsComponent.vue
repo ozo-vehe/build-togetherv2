@@ -1,7 +1,7 @@
 <script setup>
 import contact_us from "@/assets/images/contact_us.png";
-import { reactive } from "vue";
-import { RouterLink } from "vue-router";
+import { reactive, ref } from "vue";
+// import { RouterLink } from "vue-router";
 
 // Contact us form details
 const form = reactive({
@@ -10,11 +10,22 @@ const form = reactive({
   message: "",
   phone_number: "",
 });
+// Loading state
+let loading = ref(false);
+// Error state
+let error_msg = ref(null);
+
 // Submit contact us form
 const handleSubmit = async (e) => {
   e.preventDefault();
-  console.log("Set up");
-  console.log(form);
+  try {
+    loading.value = true;
+    console.log("Set up");
+    console.log(form);
+  } catch (error) {
+    loading.value = false;
+    error_msg.value = error;
+  }
 };
 </script>
 <template>
@@ -178,6 +189,7 @@ const handleSubmit = async (e) => {
   gap: 16px;
   width: 100%;
 }
+
 .form_input label {
   color: var(--foundation-black-black-600, #202020);
   font-size: 24px;
@@ -185,6 +197,7 @@ const handleSubmit = async (e) => {
   font-weight: 500;
   line-height: normal;
 }
+
 .form_input input,
 .form_input textarea {
   display: flex;
@@ -195,6 +208,7 @@ const handleSubmit = async (e) => {
   border-radius: 12px;
   background: #fafaf9;
 }
+
 .form_input textarea {
   height: 127px;
 }
@@ -204,45 +218,56 @@ const handleSubmit = async (e) => {
     padding: 32px 0px;
     gap: 0px;
   }
+
   header {
     text-align: center;
     gap: 8px;
     margin-bottom: 0px;
   }
+
   header h2 {
     font-size: 14px;
     line-height: normal;
   }
+
   header p {
     line-height: normal;
     font-size: 20px;
     margin: 0px;
   }
+
   .contact_us > div {
     margin: 30px 0px;
   }
+
   .form_image {
     gap: 20px;
     align-items: center;
     order: 2;
     margin-top: 30px;
   }
+
   .form_image img {
     width: 80%;
   }
+
   .social_icon_link {
     gap: 16px;
   }
+
   .social_icon_link svg {
     width: 24px;
     height: 24px;
   }
+
   .form_input label {
     font-size: 16px;
   }
+
   form input::placeholder {
     font-size: 14px;
   }
+
   form button {
     font-size: 12px;
     width: 134px;

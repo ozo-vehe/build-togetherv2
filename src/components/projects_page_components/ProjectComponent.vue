@@ -6,7 +6,10 @@ defineProps({
 
 <template>
   <div
-    class="project flex flex-wrap w-[380px] p-8 rounded-xl border bg-white border-[#e2e2e2] gap-5"
+    class="project flex flex-wrap w-[350px] px-4 py-8 rounded-xl border bg-white border-[#e2e2e2] gap-5"
+    data-aos="slide-up"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
   >
     <h3 class="text-custom_card_header flex flex-col gap-4 font-bold mb-3 capitalize">
       <span class="text-2xl title">{{ project.title }}</span>

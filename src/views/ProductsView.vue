@@ -1,7 +1,7 @@
 <script setup>
 import ProductsComponent from "../components/products_page_components/ProductsComponent.vue";
 import AboutComponent from "../components/AboutComponent.vue";
-import ButtonComponent from "../components/ButtonComponent.vue";
+import { RouterLink } from "vue-router";
 </script>
 <template>
   <main class="px-16">
@@ -20,7 +20,11 @@ import ButtonComponent from "../components/ButtonComponent.vue";
       </template>
 
       <template #button>
-        <ButtonComponent text="get started" />
+        <RouterLink
+          class="hero_btn bg-custom_orange text-slate-50 rounded-xl items-center justify-center px-5 py-3 w-40 capitalize hover:bg-custom_dark_orange transition-all duration-300"
+          to="/products"
+          >get started</RouterLink
+        >
       </template>
     </AboutComponent>
   </main>

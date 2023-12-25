@@ -103,7 +103,13 @@ const projects = ref([
   <section
     class="products flex flex-wrap flex-col gap-8 py-8 justify-center items-center"
   >
-    <header class="flex flex-col items-center gap-4 mb-4">
+    <header
+      class="flex flex-col items-center gap-4 mb-4"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-custom_orange text-2xl capitalize">
         Explore our diverse projects!
       </h2>

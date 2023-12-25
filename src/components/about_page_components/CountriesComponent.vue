@@ -10,7 +10,13 @@ import turkey from "@/assets/images/turkey.png";
 
 <template>
   <section class="countries mt-28 mb-10">
-    <header class="text-center capitalize">
+    <header
+      class="text-center capitalize"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-2xl text-custom_orange">global presence</h2>
       <p class="text-[40px] font-bold mt-2">we have talents from all over the world</p>
     </header>
@@ -20,42 +26,75 @@ import turkey from "@/assets/images/turkey.png";
     >
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
       >
         <img class="w-10 h-10" :src="nigeria" alt="Nigeria" />
         <p class="text-2xl font-bold">Nigeria</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="200"
       >
         <img class="w-10 h-10" :src="uganda" alt="Uganda" />
         <p class="text-2xl font-bold">Uganda</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="400"
       >
         <img class="w-10 h-10" :src="canada" alt="Canada" />
         <p class="text-2xl font-bold">Canada</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="600"
       >
         <img class="w-10 h-10" :src="kenya" alt="Kenya" />
         <p class="text-2xl font-bold">Kenya</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="800"
       >
         <img class="w-10 h-10" :src="uk" alt="UK" />
         <p class="text-2xl font-bold">UK</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1000"
       >
         <img class="w-10 h-10" :src="ghana" alt="Ghana" />
         <p class="text-2xl font-bold">Ghana</p>
       </div>
+
       <div
         class="country flex flex-col items-center justify-center gap-3 border border-[#e2e2e2] p-4 rounded-xl text-center w-[200px]"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1200"
       >
         <img class="w-10 h-10" :src="turkey" alt="Turkey" />
         <p class="text-2xl font-bold">Turkey</p>

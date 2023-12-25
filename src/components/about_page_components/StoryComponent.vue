@@ -6,7 +6,13 @@ import story_three from "@/assets/images/story (2).png";
 
 <template>
   <section class="story">
-    <header class="text-center capitalize">
+    <header
+      class="text-center capitalize"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-2xl text-custom_orange">our story</h2>
       <p class="text-[40px] font-bold mt-2">
         about build together: unleashing tomorrow's innovators
@@ -16,33 +22,58 @@ import story_three from "@/assets/images/story (2).png";
     <div
       class="story_content_container w-full flex flex-wrap flex-col items-center gap-y-20 mt-12"
     >
-      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
-        <p class="p-[10px] max-w-[626px] text-2xl">
+      <div class="story_content flex gap-10 flex-wrap justify-center items-center">
+        <p
+          class="p-[10px] max-w-[550px] text-2xl"
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Build Together is where growth, collaboration, and a shared vision converge. Our
           mission is both simple and profound- to serve as the catalyst propelling talents
           worldwide towards success and positive change in the tech ecosystem
         </p>
 
-        <div class="story_content_image w-350 h-300">
+        <div
+          class="story_content_image w-350 h-300"
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           <img class="w-full h-full object-contain" :src="story_one" alt="Story one" />
         </div>
       </div>
 
-      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
-        <p class="p-[10px] max-w-[626px] text-2xl order-2">
+      <div class="story_content flex flex-wrap gap-10 justify-center items-center">
+        <p
+          class="p-[10px] max-w-[550px] text-2xl order-2"
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Building a Global Community of Creators! At Build Together, we’re not just a
           platform; we’re a commitment to exceptional builders and creators worldwide, we
           intimately understand your journey. This empathy fuels our dedication to
           fostering collaboration and nurturing individual growth
         </p>
 
-        <div class="story_content_image w-350 h-300">
+        <div
+          class="story_content_image w-350 h-300"
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           <img class="w-full h-full object-contain" :src="story_two" alt="Story two" />
         </div>
       </div>
 
-      <div class="story_content flex flex-wrap gap-40 justify-center items-center">
-        <p class="p-[10px] max-w-[626px] text-2xl">
+      <div class="story_content flex flex-wrap gap-10 justify-center items-center">
+        <p
+          class="p-[10px] max-w-[550px] text-2xl"
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           Our vision extends beyond aspiration; it’s our daily motivation, propelling us
           tirelessly to construct a world where potential knows no boundaries. A
           collaborative space where your story seamlessly intersects with ours. Together,
@@ -51,7 +82,12 @@ import story_three from "@/assets/images/story (2).png";
           building, we are building together
         </p>
 
-        <div class="story_content_image w-350 h-300">
+        <div
+          class="story_content_image w-350 h-300"
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+        >
           <img
             class="w-full h-full object-contain"
             :src="story_three"

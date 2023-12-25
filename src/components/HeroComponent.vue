@@ -21,6 +21,11 @@
 </template>
 
 <style scoped>
+@media screen and (max-width: 1200px) {
+  .hero {
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 768px) {
   .hero {
     padding: 30px 0px;

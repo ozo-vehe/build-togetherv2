@@ -3,7 +3,15 @@
   <section
     class="products flex flex-wrap flex-col gap-8 py-8 justify-center items-center"
   >
-    <header class="flex flex-col items-center gap-4 mb-4">
+    <header
+      class="flex flex-col items-center gap-4 mb-4"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+      data-aos-mirror="true"
+      data-aos-anchor-placement="top-center"
+    >
       <h2 class="text-custom_orange text-2xl capitalize">Our products</h2>
       <p class="font-bold text-4xl">See How Build Together Can Help You Succeed</p>
     </header>
@@ -11,9 +19,14 @@
     <div
       class="product_items flex w-full flex-wrap items-center justify-center gap-x-8 gap-y-4"
     >
-      <div class="flex items-center w-[360px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[630px] items-start justify-between border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[740px] items-start justify-between border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -52,9 +65,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[360px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="200"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[630px] items-start justify-between border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[740px] items-start justify-between border border-custom_card_gray_border bg-custom_card_gray_bg rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -96,9 +115,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[360px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="400"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[630px] items-start justify-between border border-custom_orange bg-custom_card_orange_bg rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[740px] items-start justify-between border border-custom_orange bg-custom_card_orange_bg rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">

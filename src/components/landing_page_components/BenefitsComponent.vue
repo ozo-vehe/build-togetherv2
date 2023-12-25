@@ -1,7 +1,13 @@
 <script setup></script>
 <template>
   <section class="benefits flex flex-wrap gap-8 py-20 justify-center items-center">
-    <header class="flex flex-col items-center gap-4 mb-12">
+    <header
+      class="flex flex-col items-center gap-4 mb-12"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-custom_orange text-2xl">5 reasons to join us</h2>
       <p class="font-bold text-4xl">Why Join Build Togetherheader</p>
     </header>

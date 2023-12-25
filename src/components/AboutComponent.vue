@@ -3,7 +3,13 @@
   <section
     class="about flex max-w-full flex-wrap flex-col gap-4 py-20 justify-center items-center"
   >
-    <header class="flex flex-col items-center text-center gap-4">
+    <header
+      class="flex flex-col items-center text-center gap-4"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-custom_orange text-2xl">
         <slot name="header_h1"></slot>
       </h2>
@@ -11,7 +17,13 @@
         <slot name="header_p"></slot>
       </p>
     </header>
-    <div class="flex flex-col items-center max-w-[900px] justify-center gap-x-10 gap-y-4">
+    <div
+      class="flex flex-col items-center max-w-[900px] justify-center gap-x-10 gap-y-4"
+      data-aos="slide-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <p class="text-custom_card_header text-2xl text-center">
         <slot name="body_p"></slot>
       </p>

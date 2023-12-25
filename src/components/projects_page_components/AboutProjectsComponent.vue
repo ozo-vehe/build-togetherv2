@@ -3,7 +3,13 @@
   <section
     class="products flex flex-wrap flex-col gap-8 py-8 justify-center items-center"
   >
-    <header class="flex flex-col items-center gap-4 mb-4">
+    <header
+      class="flex flex-col items-center gap-4 mb-4"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-custom_orange text-2xl capitalize">join us</h2>
       <p class="font-bold text-4xl">
         Entry-Level Criteria for Build Together Business Program
@@ -13,9 +19,14 @@
     <div
       class="product_items flex w-full flex-wrap items-center justify-center gap-x-8 gap-y-4"
     >
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -29,9 +40,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="200"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -46,9 +63,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="400"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -62,9 +85,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="600"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -78,9 +107,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="800"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
@@ -94,9 +129,15 @@
         </div>
       </div>
 
-      <div class="flex items-center w-[370px] justify-center gap-10">
+      <div
+        class="flex items-center w-[340px] justify-center gap-10"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1000"
+      >
         <div
-          class="flex flex-col px-5 py-8 w-full h-[230px] items-start justify-between border border-custom_border rounded-xl"
+          class="flex flex-col px-5 py-8 w-full h-[300px] items-start justify-between border border-custom_border rounded-xl"
         >
           <div class="item_texts">
             <h3 class="text-custom_card_header text-2xl font-bold mb-3 capitalize">
