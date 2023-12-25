@@ -3,12 +3,15 @@
   <section class="benefits flex flex-wrap gap-8 py-20 justify-center items-center">
     <header class="flex flex-col items-center gap-4 mb-12">
       <h2 class="text-custom_orange text-2xl">5 reasons to join us</h2>
-      <p class="font-bold text-4xl">Why Join Build Together?</p>
+      <p class="font-bold text-4xl">Why Join Build Togetherheader</p>
     </header>
 
     <div class="benefit_items flex flex-wrap items-center justify-center gap-5">
       <div
         class="flex flex-col p-5 w-350 h-[260px] items-center justify-start border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           unmatched growth opportunities
@@ -21,6 +24,10 @@
 
       <div
         class="flex flex-col p-5 w-350 h-[260px] items-center justify-start border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="200"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Dynamic Community
@@ -33,6 +40,10 @@
 
       <div
         class="flex flex-col p-5 w-350 h-[260px] items-center justify-start border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="400"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Tailored Talent Development
@@ -45,6 +56,10 @@
 
       <div
         class="flex flex-col p-5 w-350 h-[260px] items-center justify-start border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="600"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           Pathway to Earning and Employment
@@ -57,6 +72,10 @@
 
       <div
         class="flex flex-col p-5 w-350 h-[260px] items-center justify-start border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="800"
       >
         <h3 class="text-2xl font-bold mb-3 capitalize text-left w-full">
           A Team Committed to Your Advancement

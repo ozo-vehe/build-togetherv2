@@ -19,9 +19,9 @@ const changeRoute = () => {
 </script>
 
 <template>
-  <main class="px-16">
+  <main class="home_view px-16">
     <!-- <HeroComponent /> -->
-    <HeroComponent>
+    <HeroComponent class="hero_component">
       <template #header_h1>
         <h1>shape your future; redefine your career growth</h1>
       </template>
@@ -39,10 +39,16 @@ const changeRoute = () => {
         <img class="object-cover" :src="hero_image" alt="Hero image" />
       </template>
     </HeroComponent>
-    <GrowthComponent />
+    <GrowthComponent class="growth_component" />
     <BenefitsComponent />
     <ProductsComponent />
-    <AboutComponent>
+    <AboutComponent
+      class="about_component"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <template #header_h1>
         <h1>Build Together</h1>
       </template>

@@ -1,7 +1,13 @@
 <script setup></script>
 <template>
   <section class="growth flex flex-wrap flex-col gap-8 py-20 justify-center items-center">
-    <header class="flex flex-col items-center gap-4">
+    <header
+      class="growth_header flex flex-col items-center gap-4"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="false"
+    >
       <h2 class="text-custom_orange text-2xl">Our growth over the months</h2>
       <p class="font-bold text-4xl">Discover What's Amazing About Build Together</p>
     </header>
@@ -9,6 +15,9 @@
     <div class="growth_params flex flex-wrap items-center justify-center gap-x-5 gap-y-4">
       <div
         class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -31,6 +40,10 @@
 
       <div
         class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="200"
+        data-aos-easing="ease-in-out"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +87,10 @@
 
       <div
         class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="400"
+        data-aos-easing="ease-in-out"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +113,10 @@
 
       <div
         class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="600"
+        data-aos-easing="ease-in-out"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -118,6 +139,10 @@
 
       <div
         class="flex flex-col w-52 h-40 items-center justify-center border border-custom_border rounded-xl"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-delay="800"
+        data-aos-easing="ease-in-out"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -146,15 +171,18 @@
   .growth {
     padding: 30px 0px;
   }
+
   header {
     text-align: center;
     gap: 4px;
     margin-bottom: 20px;
   }
+
   header h2 {
     font-size: 14px;
     line-height: normal;
   }
+
   header p {
     font-size: 20px;
     line-height: normal;
@@ -163,12 +191,15 @@
   .growth_params {
     gap: 15px;
   }
+
   .growth_params > div {
     width: 164px;
   }
+
   .growth_params > div p:nth-child(2) {
     font-size: 20px;
   }
+
   .growth_params > div p:nth-child(3) {
     font-size: 14px;
   }

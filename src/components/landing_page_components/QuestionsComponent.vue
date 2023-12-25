@@ -21,7 +21,12 @@ const showHidden = reactive({
     <div
       class="question_container mt-16 flex flex-wrap items-start justify-center w-full gap-x-32 gap-y-4"
     >
-      <div class="question w-full p-6 rounded-xl flex flex-col">
+      <div
+        class="question w-full p-6 rounded-xl flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">What is Build Together?</h3>
           <svg
@@ -53,7 +58,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="200"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">Who is Build Together for?</h3>
           <svg
@@ -84,7 +95,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="400"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
             How does the matching process work for teams?
@@ -117,7 +134,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="600"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
             What projects are available on Build Together?
@@ -150,7 +173,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="800"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
             How does collaboration work on Build Together?
@@ -184,7 +213,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1000"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
             Can I join even if i’m a beginner in tech?
@@ -218,7 +253,13 @@ const showHidden = reactive({
         </p>
       </div>
 
-      <div class="question w-full rounded-xl p-6 flex flex-col">
+      <div
+        class="question w-full rounded-xl p-6 flex flex-col"
+        data-aos="slide-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1200"
+      >
         <div class="question_header w-full flex items-center justify-between">
           <h3 class="text-2xl font-normal leading-normal">
             What benefits do i get from joining Build Together?
