@@ -9,7 +9,7 @@
       data-aos-once="false"
     >
       <h2 class="text-custom_orange text-2xl">5 reasons to join us</h2>
-      <p class="font-bold text-4xl">Why Join Build Togetherheader</p>
+      <p class="font-bold text-4xl">Why Join Build Together</p>
     </header>
 
     <div class="benefit_items flex flex-wrap items-center justify-center gap-5">
