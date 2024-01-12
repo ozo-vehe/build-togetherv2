@@ -5,6 +5,18 @@ import { ref } from "vue";
 
 const route = useRoute();
 let menu_open = ref(false);
+
+// Fixed position for the navbar
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector("nav");
+  if (window.scrollY > 70) {
+    navbar.style.position = "fixed";
+    navbar.style.borderBottom = "1px solid #e5e5e5";
+  } else {
+    navbar.style.position = "relative";
+    navbar.style.borderBottom = "none";
+  }
+});
 </script>
 <template>
   <nav class="flex flex-wrap gap-8 py-6 px-16 items-center justify-between">
@@ -143,11 +155,14 @@ let menu_open = ref(false);
   background: rgb(245 119 36);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   nav {
     padding-left: 16px;
     padding-right: 16px;
     position: relative;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
   }
 
   .nav_hamburger {
