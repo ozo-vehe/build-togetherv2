@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import ProductsView from '../views/ProductsView.vue';
 import ProjectsView from '../views/ProjectsView.vue';
 import PageNotFoundComponent from '../components/PageNotFoundComponent.vue'
+import InsightsView from '../views/InsightsView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,16 @@ const router = createRouter({
       name: 'projects',
       component: ProjectsView,
     },
+    {
+      path: '/insights',
+      name: 'insights',
+      component: InsightsView,
+    },
+    // {
+    //   path: '/insights/:id',
+    //   name: 'insights-detail',
+    //   component: InsightsDetailView,
+    // },
     {
       path: '/:pathMatch(.*)',
       component: PageNotFoundComponent

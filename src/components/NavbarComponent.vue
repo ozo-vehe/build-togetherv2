@@ -1,10 +1,33 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
 import logo from "@/assets/logo.png";
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 
 const route = useRoute();
 let menu_open = ref(false);
+
+const nav_links = reactive([
+  {
+    name: "Home",
+    to: "/",
+  },
+  {
+    name: "About",
+    to: "/about",
+  },
+  {
+    name: "Products",
+    to: "/products",
+  },
+  {
+    name: "Projects",
+    to: "/projects",
+  },
+  {
+    name: "Insights",
+    to: "/insights",
+  },
+]);
 
 // Fixed position for the navbar
 window.addEventListener("scroll", () => {
@@ -12,6 +35,8 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 70) {
     navbar.style.position = "fixed";
     navbar.style.borderBottom = "1px solid #e5e5e5";
+    navbar.style.width = "100%";
+    navbar.style.zIndex = "1000";
   } else {
     navbar.style.position = "relative";
     navbar.style.borderBottom = "none";
@@ -76,30 +101,11 @@ window.addEventListener("scroll", () => {
             <li
               @click="menu_open = !menu_open"
               class="menu_item"
-              :class="{ 'text-custom_orange': route.path === '/' }"
+              :class="{ 'text-custom_orange': route.path === link.to }"
+              v-for="(link, index) in nav_links"
+              :key="index"
             >
-              <RouterLink role="menuitem" to="/">Home</RouterLink>
-            </li>
-            <li
-              @click="menu_open = !menu_open"
-              class="menu_item"
-              :class="{ 'text-custom_orange': route.path === '/about' }"
-            >
-              <RouterLink role="menuitem" to="/about">About Us</RouterLink>
-            </li>
-            <li
-              @click="menu_open = !menu_open"
-              class="menu_item"
-              :class="{ 'text-custom_orange': route.path === '/products' }"
-            >
-              <RouterLink role="menuitem" to="/products">Products</RouterLink>
-            </li>
-            <li
-              @click="menu_open = !menu_open"
-              class="menu_item"
-              :class="{ 'text-custom_orange': route.path === '/projects' }"
-            >
-              <RouterLink role="menuitem" to="/projects">Projects</RouterLink>
+              <RouterLink role="menuitem" :to="link.to">{{ link.name }}</RouterLink>
             </li>
           </ul>
         </div>
@@ -109,19 +115,12 @@ window.addEventListener("scroll", () => {
     <!-- Navigation Menu Items -->
     <ul class="nav_menu flex gap-10 items-center text-custom_card_header text-xl">
       <li
-        class="menu_item transition-all duration-300"
-        :class="{ active: route.path === '/' }"
+        class="menu_item"
+        :class="{ active: route.path === link.to }"
+        v-for="(link, index) in nav_links"
+        :key="index"
       >
-        <RouterLink role="menuitem" to="/">Home</RouterLink>
-      </li>
-      <li class="menu_item" :class="{ active: route.path === '/about' }">
-        <RouterLink role="menuitem" to="/about">About Us</RouterLink>
-      </li>
-      <li class="menu_item" :class="{ active: route.path === '/products' }">
-        <RouterLink role="menuitem" to="/products">Products</RouterLink>
-      </li>
-      <li class="menu_item" :class="{ active: route.path === '/projects' }">
-        <RouterLink role="menuitem" to="/projects">Projects</RouterLink>
+        <RouterLink role="menuitem" :to="link.to">{{ link.name }}</RouterLink>
       </li>
     </ul>
 
@@ -162,7 +161,7 @@ window.addEventListener("scroll", () => {
     position: relative;
     width: 100%;
     z-index: 1000;
-    background-color: white;
+    /* background-color: white; */
   }
 
   .nav_hamburger {

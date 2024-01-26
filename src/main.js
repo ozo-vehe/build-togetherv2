@@ -15,4 +15,4 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
-getAnalytics(firebase_app)
+// getAnalytics(firebase_app)
