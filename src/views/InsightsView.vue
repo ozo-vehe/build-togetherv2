@@ -6,6 +6,7 @@ import left_arrow from "@/assets/images/left.png";
 
 const user_name = ref(null);
 const user_email = ref(null);
+const loading = ref(false);
 
 const handleSubmit = async (e) => {
   e.preventDefault();
@@ -15,10 +16,35 @@ const handleSubmit = async (e) => {
     email: user_email.value,
   };
 
+  loading.value = true;
+
   try {
     console.log(user_data);
+    // Send user data to the server
+    const req = await fetch("https://api.buildtogetherhq.com/api/web/waitlist.php", {
+      method: "POST",
+      body: JSON.stringify(user_data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const res = await req.json();
+    console.log(res);
+    // If successful
+    if (res.status >= 200 && res.status < 300) {
+      alert("You have been added to the waitlist successfully");
+    } else {
+      // If not successful
+      alert("Something went wrong, please try again later");
+    }
+    loading.value = false;
   } catch (error) {
     console.log(error);
+    alert(error);
+    loading.value = false;
+  } finally {
+    user_email.value = null;
+    user_name.value = null;
   }
 };
 
@@ -50,7 +76,7 @@ onMounted(() => {
 
       <form
         @submit="handleSubmit"
-        class="w-[800px] flex flex-col items-center gap-6 relative px-4"
+        class="w-[800px] flex flex-col items-center gap-6 relative px-4 mt-6"
       >
         <input
           class="text-center border p-4 rounded-[12px] text-[#192F41] border-[#192F41] w-400 bg-inherit text-[16px] h-[54px] shadow-[2px_1px_1px_1px_rgba(0,0,0)] z-10 outline-none"
@@ -59,6 +85,7 @@ onMounted(() => {
           id="name"
           placeholder="Name"
           v-model.lazy="user_name"
+          required
         />
 
         <input
@@ -68,13 +95,20 @@ onMounted(() => {
           id="email"
           placeholder="Email"
           v-model.lazy="user_email"
+          required
         />
 
         <button
-          class="text-center border px-4 py-3 mt-5 rounded-[12px] text-white border-[#192F41] w-[160px] bg-custom_orange text-[16px] shadow-[2px_1px_1px_1px_rgba(0,0,0)] cursor-pointer z-10"
+          class="text-center border px-4 py-3 mt-5 rounded-[12px] text-white border-[#192F41] w-[170px] h-[50px] flex justify-center items-center capitalize bg-custom_orange text-[16px] shadow-[2px_1px_1px_1px_rgba(0,0,0)] cursor-pointer z-10"
           type="submit"
         >
-          Join waitlist
+          <img
+            v-if="loading"
+            class="w-8 h-8 animate-spin"
+            src="https://img.icons8.com/material-rounded/eeeeee/48/spinner-frame-4.png"
+            alt="spinner-frame-4"
+          />
+          <span v-else>Join waitlist</span>
         </button>
 
         <div class="arrow_icons absolute w-full h-full">
@@ -225,6 +259,9 @@ onMounted(() => {
   form input {
     width: inherit;
     height: 48px;
+  }
+  form button {
+    height: 45px;
   }
   .arrow_icons img {
     width: 25px;
