@@ -29,7 +29,7 @@ const handleSubmit = async (e) => {
       },
     });
     const res = await req.json();
-    console.log(res);
+    // console.log(res);
     // If successful
     if (res.status >= 200 && res.status < 300) {
       alert("You have been added to the waitlist successfully");
@@ -39,7 +39,7 @@ const handleSubmit = async (e) => {
     }
     loading.value = false;
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     alert(error);
     loading.value = false;
   } finally {
