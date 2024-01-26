@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import be_circled from "@/assets/images/be_circled.png";
 import right_arrow from "@/assets/images/right.png";
 import left_arrow from "@/assets/images/left.png";
@@ -21,6 +21,10 @@ const handleSubmit = async (e) => {
     console.log(error);
   }
 };
+
+onMounted(() => {
+  document.querySelector("nav").style.backgroundColor = "#FEF1E9";
+});
 </script>
 <template>
   <section class="insights w-full bg-[#FEF1E9] pt-[80px] px-16 z-10">

@@ -20,6 +20,7 @@ const change_bg = (current_route) => {
 };
 
 onMounted(() => {
+  document.querySelector("nav").style.backgroundColor = "white";
   watch(
     () => route.path,
     (to) => {
